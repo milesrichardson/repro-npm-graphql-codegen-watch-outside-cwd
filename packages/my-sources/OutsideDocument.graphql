@@ -1,0 +1,8 @@
+# If you edit this file, watch mode will NOT recognize it
+query OutsideUser {
+  user(id: 1) {
+    id
+    username
+    email
+  }
+}

@@ -1,0 +1,8 @@
+# If you edit this file, watch mode will recognize it and rebuild
+query InsideUser {
+  user(id: 1) {
+    id
+    username
+    email
+  }
+}
